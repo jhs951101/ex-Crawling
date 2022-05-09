@@ -11,7 +11,7 @@ public class TestCrawling {
         String URL = "https://www.naver.com";
         Document doc = Jsoup.connect(URL).get();
 
-        //System.out.println(doc.text());  // text¸¸ Ãâ·Â
-        System.out.println(doc.html());  // html ÄÚµå±îÁö Ãâ·Â
+        //System.out.println(doc.text());  // textë§Œ ì¶œë ¥
+        System.out.println(doc.html());  // html ì½”ë“œê¹Œì§€ ì¶œë ¥
     }
 }
